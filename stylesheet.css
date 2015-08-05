@@ -5,6 +5,10 @@ body{
     background: url(images/background/background4.jpg);
     background-color: teal;
     background-size:cover;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden; 
+    overflow-y: hidden;
     color:blanchedalmond;
     width:97vw;
     font-family:'Dancing Script';
@@ -78,7 +82,7 @@ body{
  }
 
 #content #bio p, #content #bio li{
-    font-size:3vmin;
+    font-size:2.7vmin;
     font-family: serif;  
     font-style: italic;
 }
