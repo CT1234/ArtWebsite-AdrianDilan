@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+.flexslider .slides > li:first-child {display: block; -webkit-backface-visibility: visible;} 
+
+body{
+    background: url(images/background/background4.jpg);
+    background-color: teal;
+    background-size:cover;
+    color:blanchedalmond;
+    width:97vw;
+    font-family:'Dancing Script';
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+
+#wrapper{
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#header{
+    text-align: left;
+    width: 100%;
+    font-size:7vmin;
+}
+
+#nav {
+    display:inline-block;
+    width:100%;
+    height:10%;
+}
+
+#nav li{
+    display:inline;
+    font-size:5.5vmin;
+    margin-right:5vmin;
+    margin-left:5vmin;
+}
+
+#content {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px auto;
+    margin-top:2em;
+    width:100%;
+}
+
+#content .inner {
+    vertical-align: middle;
+    display:inline-block;
+    margin: 0px auto;
+    margin-left:2vw;
+    margin-right:2vw;
+    margin-top:1vw;
+    width:45vmin;
+}
+
+#content .inner img{
+    height:100%;
+    width:100%;
+    border:.2vmin solid antiquewhite;
+}
+
+#content .inner p, #content .inner li{
+    text-align: center;
+    font-size:2.73vmin ;
+    text-shadow: .5px 0 0 #000, 0 -1.5px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+    font-weight:bold;
+    color: blanchedalmond;
+}
+
+ #content #bio{
+    background: #335555;
+    height:100%;
+    width:100%;
+    border:.2vmin solid antiquewhite;
+    word-wrap:break-word;
+ }
+
+#content #bio p, #content #bio li{
+    font-size:2.3vmin;
+}
+
+#footer {
+    display:inline-block;
+    width:100%;
+    text-align: right;
+    font-size:1.3vmax;
+    margin-top:2vw;
+    color:blanchedalmond;
+}
+
+a, a:visited{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+a:hover{
+    color:aquamarine;   
+}
+
+.flexslider ul li{
+    display:inline;
+}
+
+.flexslider ul{
+    margin:0px auto;
+    display:inline-block;
+    margin-bottom: 1vh;
+}
+
+.flexslider{
+    height:70vh;
+}
+
+.flexslider .slides img {
+    height:65vh;
+    width:50vh;
+    border:4px solid blanchedalmond;
+}
+
+li{
+    font-family: 'Dancing Script';
+    list-style-type: none;
+}
+
+.flex-caption {
+    margin: 0px auto;
+    width: 50vh;
+    background: rgba(0,0,0,.5);
+    color: blanchedalmond;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    font-size: 2vh;
+}
+
+.flex-next{
+    font-size:5vh;
+    position: relative;
+}
+
+.flex-prev{
+    font-size:5vh;
+    position: relative;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Dilanian Art</title>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+        animation: "fade",
+        slideshow:true,
+        controlNav: false,
+        directionNav:false,
+        slideshowSpeed:4000,
+        animationSpeed:3000,
+        initDelay:1000
+        });
+      });
+    </script>
+</head>
+<body>
+    <div id="wrapper">        
+        <div id="header"> 
+            <a href=index.html>DilanianArt.com</a>
+        </div>
+
+        <div id="nav"> 
+            <li><a href=info.html>Info</a></li>
+            <li><a href=flora.html>Flora</a></li>
+            <li><a href=legends.html>Legends</a></li>
+            <li><a href=portraits.html>Portraits</a></li>
+        </div>
+        <div id="content">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img class="index" src="images/portraits/1.jpg" alt=" ">
+                    </li>
+                    <li>
+                        <img class="index" src="images/legends/2.jpg" alt=" ">
+                    </li>
+                    <li>
+                        <img class="index" src="images/flora/9.jpg" alt=" ">
+                    </li>
+                    <li>
+                        <img class="index" src="images/portraits/4.jpg" alt=" ">
+                    </li>
+                    <li>
+                        <img class="index" src="images/flora/2.jpg" alt=" ">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer">
+        <li>Copyrights 1-1985043901 Registered VAu001195524</li>
+        </div>    
+    </div>    
+</body>
