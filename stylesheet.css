@@ -29,8 +29,10 @@ body{
 
 #nav {
     display:inline-block;
-    width:100%;
+    margin:auto;
+    width:100vw;
     height:10%;
+    background-color: rgba(25, 25, 255, 0.05)
 }
 
 #nav li{
@@ -79,6 +81,7 @@ body{
     width:100%;
     border:.2vmin solid antiquewhite;
     word-wrap:break-word;
+    background-color: rgba(5, 20, 15, 0.8)
  }
 
 #content #bio p, #content #bio li{
@@ -88,12 +91,14 @@ body{
 }
 
 #footer {
-    display:inline-block;
     width:100%;
-    text-align: right;
+    position: fixed;
+    bottom:0px;
+    text-align: center;
     font-size:1.3vmax;
     margin-top:2vw;
     color:blanchedalmond;
+;
 }
 
 a, a:visited{
