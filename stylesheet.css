@@ -153,3 +153,6 @@ li{
     font-size:5vh;
     position: relative;
 }
+
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;}
+.flexslider .slides > li:not(:first-child)
