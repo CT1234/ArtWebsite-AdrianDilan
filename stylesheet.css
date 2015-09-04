@@ -35,8 +35,17 @@ body{
     display: inline-block;
     margin: auto;
     width: 100vw;
-    height: 10%;
-    background-color: rgba(25, 25, 255, 0.05)
+    height: 6vh;;
+    background-color: rgba(25, 25, 255, 0.05);
+    -webkit-transition: .5s all;   
+    -webkit-transition-delay: 5s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: 5s; 
+    -ms-transition: .5s all;   
+    -ms-transition-delay: 5s; 
+    -o-transition: .5s all;   
+    -o-transition-delay: 5s; 
+    transition: .4s all;   
 }
 
     #nav li{
@@ -45,6 +54,7 @@ body{
         margin-right: 5vmin;
         margin-left: 5vmin;
     }
+
 
 #content {
     display: inline-block;
@@ -85,7 +95,8 @@ body{
         width: 100%;
         border: .2vmin solid antiquewhite;
         word-wrap: break-word;
-        background-color: rgba(5, 20, 15, 0.8)
+        background-color: rgba(5, 20, 15, 0.8);
+        padding: 10px;
      }
 
     #content #bio p, #content #bio li{
@@ -102,16 +113,25 @@ body{
     font-size: 1.3vmax;
     margin-top: 2vw;
     color: blanchedalmond;
-;
 }
 
 a, a:visited{
     color: blanchedalmond;
     text-decoration: none;
+    -webkit-transition: .5s all;   
+    -webkit-transition-delay: 5s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: 5s; 
+    -ms-transition: .5s all;   
+    -ms-transition-delay: 5s; 
+    -o-transition: .5s all;   
+    -o-transition-delay: 5s; 
+    transition: .9s all;
 }
 
     a:hover{
         color:aquamarine;   
+       
     }
 
 .flexslider{
@@ -164,3 +184,63 @@ li{
 }
 
 .flexslider .slides > li:not(:first-child)
+
+@-ms-keyframes wiggle {
+   0% {
+      -ms-transform:rotate(2deg);
+   }
+   50% {
+      -ms-transform:rotate(-2deg);
+   }
+   100% {
+      -ms-transform:rotate(2deg);
+   }
+}
+
+@-moz-keyframes wiggle {
+   0% {
+      -moz-transform:rotate(2deg);
+   }
+   50% {
+      -moz-transform:rotate(-2deg);
+   }
+   100% {
+      -moz-transform:rotate(2deg);
+   }
+}
+
+@-webkit-keyframes wiggle {
+   0% {
+      -webkit-transform:rotate(2deg);
+   }
+   50% {
+      -webkit-transform:rotate(-2deg);
+   }
+   100% {
+      -webkit-transform:rotate(2deg);
+   }
+}
+
+@keyframes wiggle {
+   0% {
+      transform:rotate(2deg);
+   }
+   50% {
+      transform:rotate(-2deg);
+   }
+   100% {
+      transform:rotate(2deg);
+   }
+}
+
+a.wiggle-me:hover {
+   -ms-animation:wiggle .7s 30;
+   -moz-animation:wiggle .7s 30;
+   -webkit-animation:wiggle .7s 30;
+   animation:wiggle .7s 30;
+}
+iframe {
+   position: fixed;
+   left:0;
+   bottom:0;
+}
