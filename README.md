@@ -1,5 +1,5 @@
 # dilanianpaintings
-Adrianna Dilanian's Arts Website  
+Adriana Dilanian's Arts Website  
 ###Created using:  
 * CSS  
 * HTML  
